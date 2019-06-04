@@ -1,0 +1,48 @@
+1.
+check the string at address 0x402400, using
+print (char *) 0x402400
+Border relations with Canada have never been better.
+2.
+1 2 4 8 16 32
+after read_six_number, we can see the first comparison is 1
+and "add %eax %eax" for 5 times, we can get the result
+3. 
+the first int is 1 < a <7, and you can jump to the second int by print the int at *0x402470(,6,8) to 
+6 682
+4.
+to ensure that the func4 return 0, the first is 7 and the second number is compared with 0
+7 0
+5. 
+the string is compared with 'flyers' and character is extracted from 0x4024b0
+9?>567
+6.
+we get the values at each node
+(gdb) x 0x006032d0 
+0x6032d0 <node1>:	0x0000014c.     d8 = 0x006032e0
+(gdb) x 0x006032e0
+0x6032e0 <node2>:	0x000000a8      e8 = 0
+(gdb) x 0x006032f0
+0x6032f0 <node3>:	0x0000039c.     f8 =  0x00603300
+(gdb) x 0x00603300
+0x603300 <node4>:	0x000002b3.     08 = 0x00603310
+(gdb) x 0x00603310
+0x603310 <node5>:	0x000001dd.     18 =  0x00603320
+(gdb) x 0x00603320
+0x603320 <node6>:	0x000001bb.     28 =  0x006032d0
+
+and we can arrange that
+a8 < 14c < 1bb < 1dd < 2b3 < 39c
+so the sequence is 
+f0            = f0 3
+00.      f8   = 00 4
+10.     08    = 10 5
+20.    18   = 20  6
+d0.    28 = d0. 1
+e0.    d8 = e0 2
+	e8 =. 0
+	
+3 4 5 6 1 2
+and the number is substracted by 7 so the answer is 
+4 3 2 1 6 5
+
+

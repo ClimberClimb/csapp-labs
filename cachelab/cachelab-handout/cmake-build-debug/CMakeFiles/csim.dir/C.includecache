@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/soso/csapp/cachelab/cachelab-handout/cachelab.c
+stdio.h
+-
+stdlib.h
+-
+assert.h
+-
+cachelab.h
+/Users/soso/csapp/cachelab/cachelab-handout/cachelab.h
+time.h
+-
+
+/Users/soso/csapp/cachelab/cachelab-handout/cachelab.h
+
+/Users/soso/csapp/cachelab/cachelab-handout/csim.c
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+getopt.h
+-
+stdio.h
+-
+math.h
+-
+string.h
+-
+limits.h
+-
+cachelab.h
+/Users/soso/csapp/cachelab/cachelab-handout/cachelab.h
+

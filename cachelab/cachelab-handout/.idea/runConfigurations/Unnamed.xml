@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Unnamed" type="CMakeRunConfiguration" factoryName="Application" singleton="true" PROGRAM_PARAMS="-h" PASS_PARENT_ENVS_2="true" RUN_TARGET_PROJECT_NAME="csim" RUN_TARGET_NAME="csim">
+    <method />
+  </configuration>
+</component>

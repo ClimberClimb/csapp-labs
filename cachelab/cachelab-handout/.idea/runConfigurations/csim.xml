@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="csim" type="CMakeRunConfiguration" factoryName="Application" singleton="true" PROGRAM_PARAMS="-s 5 -v -E 1 -b 5 -t $PROJECT_DIR$/trace.f0" PASS_PARENT_ENVS_2="true" PROJECT_NAME="csim" TARGET_NAME="csim" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="csim" RUN_TARGET_NAME="csim">
+    <method />
+  </configuration>
+</component>

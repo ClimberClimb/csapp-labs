@@ -36,9 +36,9 @@ void transpose_submit(int M, int N, int A[N][M], int B[M][N])
     {
         for (jj = 0; jj < M; jj += bSize)
         {
-            for (i = kk; (i < kk + bSize) & (i < N); i++)
+            for (i = kk; (i < kk + bSize) && (i < N); i++)
             {
-                for (j = jj; (j < jj + bSize) & (j < M); j++)
+                for (j = jj; (j < jj + bSize) && (j < M); j++)
                 {
                     if (i - kk != j - jj)
                     {
